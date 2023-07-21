@@ -23,8 +23,7 @@ This program uses some common Python packages including Numpy, PyTorch, Scipy, S
 
 ## Instruction
 
-Please unzip "results-auc.zip". 
-<br>The folder "results-auc" saves the hyper-parameters that can reproduce the results listed in Table 1 of the paper. There may be deviations due to computer hardware differences even if set the same random seed. 
+The folder "results-auc" saves the hyper-parameters that can reproduce the results listed in Table 1 of the paper. There may be deviations due to computer hardware differences even if set the same random seed.
 
 For the MLP-type networks, we uses datasets with the ".mat" file format. For example, the results of Table 1 under the MLP backbone are obtained using the dataset "MATLAB_CIFAR10_colour". For this dataset, you should download the original CIFAR10 dataset first. Then, the MATLAB function in "./datasets/MATLAB_CIFAR10_colour/CIFAR10_my_formatting.m" can help you derive the dataset "MATLAB_CIFAR10_colour".
 
